@@ -1,7 +1,11 @@
 <html>
     <body>
         <script>
-            alert( null || 2 || undefined ); //2
+            let user = {};
+            user.name = "John";
+            user.surname = "Smith";
+            user.name = "Pete";
+            delete user.name;
         </script>
     </body>
 </html>
