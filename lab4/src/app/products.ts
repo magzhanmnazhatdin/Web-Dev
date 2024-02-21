@@ -11,20 +11,20 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Apple 20W USB-C Power Adapter white',
-    price: 2197,
-    description: 'Type: mains charging. Number of connected devices: 1. Fast charging: Yes. Connector: USB Type-C.',
-    link: 'https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h95/h0e/63961934823454.jpg?format=gallery-medium',
+    name: 'Huawei Watch GT 4 46 mm silver-brown',
+    price: 65599,
+    description: 'With a new octagonal design, an innovative strap fastening and a larger AMOLED screen, the HUAWEI WATCH GT 4 is a versatile smartwatch',
+    link: 'https://kaspi.kz/shop/p/huawei-watch-gt-4-46-mm-serebristyi-korichnevyi-113401498/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h3a/h59/83882243915806.jpg?format=gallery-medium',
     rating: 4.5,
   },
   {
     id: 2,
-    name: 'Apple iPhone 13 128Gb Midnight black',
-    price: 298600,
-    description: 'Smartphone Apple iPhone 13 128GB Midnight; Model year. 2022; Display diagonal, inch. 6.1; Display resolution. 2532x1170 ; Matrix type. Super Retina XDR.',
-    link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium',
+    name: 'Apple Watch SE 40 mm black',
+    price: 130000,
+    description: 'Apple Watch SE 40mm and 44mm Aluminum cases with a variety of band styles and colors.',
+    link: 'https://kaspi.kz/shop/p/apple-watch-se-40-mm-chernyi-100568123/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/ha3/h60/63868199403550.jpg?format=gallery-medium',
     rating: 5,
 
   },
@@ -40,13 +40,12 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Apple Watch SE 40 mm black',
-    price: 130000,
-    description: 'Apple Watch SE 40mm and 44mm Aluminum cases with a variety of band styles and colors.',
-    link: 'https://kaspi.kz/shop/p/apple-watch-se-40-mm-chernyi-100568123/?c=750000000',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/ha3/h60/63868199403550.jpg?format=gallery-medium',
+    name: 'Apple iPhone 13 128Gb Midnight black',
+    price: 298600,
+    description: 'Smartphone Apple iPhone 13 128GB Midnight; Model year. 2022; Display diagonal, inch. 6.1; Display resolution. 2532x1170 ; Matrix type. Super Retina XDR.',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium',
     rating: 5,
-
   },
   {
     id: 5,
@@ -70,13 +69,12 @@ export const products = [
   },
   {
     id: 7,
-    name: 'Xiaomi Redmi Watch 3 Active black',
-    price: 17900,
-    description: 'Xiaomi Redmi Watch 3 Active Smart Watch Fitness Tracker with 100 Sport Modes, Blood Oxygen Heart Rate Sleep Monitor, Bluetooth Phone Call Watch for iPhone',
-    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-3-active-chernyi-chernyi-111458311/?c=750000000',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/he5/h68/81808098557982.jpg?format=gallery-medium',
-    rating: 4.5,
-
+    name: 'Apple iPhone 15 Pro Max 256Gb gray',
+    price: 614343,
+    description: ' Titanium design. A17 Pro chip. 48MP Main camera. Record spatial video for Apple Vision Pro. Action button. USB-C.',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=gallery-medium',
+    rating: 5,
   },
   {
     id: 8,
@@ -89,12 +87,13 @@ export const products = [
   },
   {
     id: 9,
-    name: 'Apple iPhone 15 Pro Max 256Gb gray',
-    price: 614343,
-    description: ' Titanium design. A17 Pro chip. 48MP Main camera. Record spatial video for Apple Vision Pro. Action button. USB-C.',
-    link: 'https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=750000000',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=gallery-medium',
-    rating: 5,
+    name: 'Xiaomi Redmi Watch 3 Active black',
+    price: 17900,
+    description: 'Xiaomi Redmi Watch 3 Active Smart Watch Fitness Tracker with 100 Sport Modes, Blood Oxygen Heart Rate Sleep Monitor, Bluetooth Phone Call Watch for iPhone',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-3-active-chernyi-chernyi-111458311/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/he5/h68/81808098557982.jpg?format=gallery-medium',
+    rating: 4.5,
+
   },
   {
     id: 10,
@@ -104,7 +103,16 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/huawei-watch-gt-4-46-mm-serebristyi-korichnevyi-113401498/?c=750000000',
     img: 'https://resources.cdn-kaspi.kz/img/m/p/h3a/h59/83882243915806.jpg?format=gallery-medium',
     rating: 4.5,
-  }
+  },
+  {
+    id: 10,
+    name: 'Apple 20W USB-C Power Adapter white',
+    price: 2197,
+    description: 'Type: mains charging. Number of connected devices: 1. Fast charging: Yes. Connector: USB Type-C.',
+    link: 'https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000',
+    img: 'https://resources.cdn-kaspi.kz/img/m/p/h95/h0e/63961934823454.jpg?format=gallery-medium',
+    rating: 4.5,
+  },
 ];
 
 
