@@ -15,6 +15,10 @@ export class ProductListComponent {
     this.selectedCategory = category
   }
 
+  showAllCategories() {
+    this.selectedCategory = '';
+  }
+
   share(url: String) {
     window.open(`https://t.me/share/url?url=${url}`);
   }
