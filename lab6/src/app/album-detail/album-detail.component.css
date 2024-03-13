@@ -10,7 +10,7 @@ body {
 /* Styling for the main container */
 .album-detail-container {
     width: 80%;
-    max-width: 800px;
+    max-width: 1300px;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
